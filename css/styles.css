@@ -66,7 +66,7 @@ body {
   line-height: 1.5;
   color: #212529;
   text-align: left;
-  background-color: #fff;
+  background-color: #ffffff;
 }
 
 [tabindex="-1"]:focus:not(:focus-visible) {
@@ -547,6 +547,7 @@ pre code {
   padding-left: 0.75rem;
   margin-right: auto;
   margin-left: auto;
+  z-index: 1;
 }
 @media (min-width: 576px) {
   .container {
@@ -10484,4 +10485,13 @@ section#contact form#contactForm :-ms-input-placeholder {
 
 .ImageBorder {
   outline: 1px solid #b7bbbb;
+}
+
+#particles-js{
+  position:absolute;
+  top: 0px;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: -1;
 }
